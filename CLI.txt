@@ -7,3 +7,7 @@ Add –p before the command mkdir.
 Example: mkdir –p bahar/run/week1
 3. How do I append a message to a file, without a newline character?
 Use the command (echo “message” >> filename.txt)
+
+Note: I think there is another answer to Q1.
+to make a file hidden, first you should create the file using command (mkdir) after that by using command (attrib +h +r +s filename) the file will be hidden.
+after that if you use the command (ls), you can see the file is listed. For making the file unhidden, you should use command (attrib -h -r -s filename).
