@@ -1,0 +1,11 @@
+1.  How do I create a hidden file or folder? How do I display it in the CLI?
+To create a hidden file or folder add a dot (.) at the beginning of the name.
+Example: (touch .RUN.txt) or (mkdir .RUN)
+To Display the hidden file in CLI you should use the command (ls –a)
+
+2. How do I create multiple nested directories?
+Add –p before the command mkdir.
+Example: mkdir –p bahar/run/week1
+
+3. How do I append a message to a file, without a newline character?
+Use the command (echo “message” >> filename.txt)
